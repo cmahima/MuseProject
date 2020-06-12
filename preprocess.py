@@ -20,8 +20,8 @@ def find_nearest(array, value):
 
 #save the file from dropbox as musedata.csv
 file_name="musedata.csv"
-dropbox_path='/Apps/Muse/'
-dbx=dropbox.Dropbox('un69i0ohq-AAAAAAAAAEsXY6Qwa8EbFoBLnypnIY2vteShzZ514CjVcSCI41KI0P')
+dropbox_path='Path to dropbox'
+dbx=dropbox.Dropbox('')
 entries = dbx.files_list_folder(dropbox_path).entries
 for entry in entries:
     if isinstance(entry, dropbox.files.FileMetadata):
