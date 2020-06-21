@@ -14,7 +14,7 @@ This file is used to run the visual experiment. It used Psychopy library of Pyth
 This shell script runs the codes to preprocess the data and get the data in trainable format
 
 # mlmodelmuse
-This folder has model that have been applied on the data
+This folder has models that have been applied on the data
 
 ## Note
 This repository will be updated as there is progress in work
